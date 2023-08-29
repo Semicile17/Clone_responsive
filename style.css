@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+}
+a{
+    text-decoration:none;
+    color:#282C3F;
+    font-weight:500;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navbaritems{
+    display:flex;
+    
+    align-items:center;
+}
+.navbar{
+height:80px;
+background-color:#FFFFFF;
+display:flex;
+flex-direction:row;
+}
+#logo{
+    width:53px;
+    height:80px;
+    margin-left:34px;
+
+}
+.logo{
+    width:53px;
+    height:36px;
+    background-image: url(logo.png);
+    background-size:cover;
+}
+#men{
+    width:62px;
+    height:81px;
+    margin-left:31px;
+
+}
+.men{
+    width:62px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#women{
+    width:84px;
+    height:81px;
+    margin-left:13px;
+
+}
+.women{
+    width:84px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#kids{
+    width:64px;
+    height:81px;
+    margin-left:13px;
+
+
+}
+.kids{
+    width:64px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#home{
+    width:131px;
+    height:81px;
+    margin-left:13px;
+    
+
+}
+.home{
+    width:131px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#beauty{
+    width:84px;
+    height:81px;
+    margin-left:16px;
+    
+
+}
+.beauty{
+    width:84px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#studio{
+    width:90px;
+    height:81px;
+    margin-left:5px;
+
+}
+.studio{
+    width:90px;
+    height:21px;
+    font-size:14px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navbseritems{
+    display:flex;
+    align-items:center;
+}
+.searchbar{
+    display:flex;
+    flex-direction:row;
+
+}
+input{
+    width:325px;
+    height:39px;
+    background-color:#F5F5F6;
+    border:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+
+}
+#sico{
+    width:41px;
+    height:41px;
+    background-color:#F5F5F6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left:13px;
+    
+}
+placeholder{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    text-align:center;
+}
+.navendp{
+    display:flex;
+    flex-direction:row;
+}
+#proico{
+    width:24px;
+    height:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+#protex{
+    width:35px;
+    height:16px;
+    font-size:12px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    
+}
+#wishico{
+    width:24px;
+    height:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#wishtex{
+    width:35px;
+    height:16px;
+    font-size:12px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#bico{
+    width:24px;
+    height:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     
+}
+#btex{
+    width:35px;
+    height:16px;
+    font-size:12px;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navendp{
+    display:flex;
+    align-items:center;
+}
+#profile{
+    margin-left:22px;
+}
+#wishl{
+    margin-left:22px;
+}
+#bag{
+    margin-left:22px;
+}
+
+
+
+
