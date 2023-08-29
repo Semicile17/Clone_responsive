@@ -1,6 +1,12 @@
 *{
     margin:0px;
 }
+body{
+    background-color:#f1f3f6;
+    overflow-y:scroll;
+    
+    
+    }
 a{
     text-decoration:none;
     color:#282C3F;
@@ -23,88 +29,130 @@ flex-direction:row;
     width:53px;
     height:80px;
     margin-left:34px;
+    margin-right:19px;
 
 }
-.logo{
-    width:53px;
-    height:36px;
+img{
+    width:95px;
+    height:54px;
     background-image: url(logo.png);
     background-size:cover;
 }
 #men{
     width:62px;
-    height:81px;
-    margin-left:31px;
+    height:78px;
+    margin-left:15px;
 
 }
 .men{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:62px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+#men:hover{
+    border-bottom: 3px solid red;
+}
 #women{
     width:84px;
-    height:81px;
-    margin-left:13px;
+    height:78px;
+    margin-left:4px;
 
 }
 .women{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:84px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+#women:hover{
+    border-bottom: 3px solid rgb(225, 91, 113);
+}
 #kids{
     width:64px;
-    height:81px;
-    margin-left:13px;
+    height:78px;
+    margin-left:3px;
 
 
 }
 .kids{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:64px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+#kids:hover{
+    border-bottom: 3px solid rgb(219, 156, 40);
+}
 #home{
     width:131px;
-    height:81px;
-    margin-left:13px;
+    height:78px;
+    margin-left:5px;
     
 
 }
 .home{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:131px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+#home:hover{
+    border-bottom: 3px solid rgb(177, 177, 54);
+}
 #beauty{
     width:84px;
-    height:81px;
-    margin-left:16px;
+    height:78px;
+    margin-left:3px;
     
 
 }
 .beauty{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:84px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+#beauty:hover{
+    border-bottom: 3px solid teal;
+}
 #studio{
     width:90px;
-    height:81px;
-    margin-left:5px;
+    height:78px;
+   
 
 }
 .studio{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width:90px;
     height:21px;
     font-size:14px;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin-bottom:3px;
+}
+#studio:hover{
+    border-bottom: 3px solid red;
+}
+sup{
+    font-weight:560;
+    color:red;
 }
 .navbseritems{
     display:flex;
@@ -134,16 +182,18 @@ input{
     align-items:center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    margin-left:13px;
+    margin-left:35px;
     
 }
 placeholder{
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     text-align:center;
 }
-.navendp{
+.navbendp{
     display:flex;
     flex-direction:row;
+    display:flex;
+    align-items:center;
 }
 #proico{
     width:24px;
@@ -151,6 +201,7 @@ placeholder{
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-left:6px;
    
 }
 #protex{
@@ -166,6 +217,7 @@ placeholder{
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-left:8px;
 }
 #wishtex{
     width:35px;
@@ -192,13 +244,16 @@ placeholder{
     align-items:center;
 }
 #profile{
-    margin-left:22px;
+    margin-left:36px;
+}
+.justfy{
+    height:78px;
 }
 #wishl{
-    margin-left:22px;
+    margin-left:26px;
 }
 #bag{
-    margin-left:22px;
+    margin-left:33px;
 }
 
 
